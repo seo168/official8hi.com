@@ -1,5 +1,5 @@
 (() => {
-  const apk = "https://cocosapk.vememo95arp.com/apk/Uv5CJmjT/1292/G8G_1292_1315.apk";
+  const apk = "https://cocosapk.arkbotita85.com/apk/DNjfxApS/1750/8HI_1750_1773.apk";
   const match = /(coming soon|download(?: the)?(?: 8hi)?(?: android)?(?: app| apk)?|view app status|app status|get (?:the )?app|install apk)/i;
   const activate = () => {
     document.querySelectorAll('a, button').forEach((el) => {
@@ -8,7 +8,7 @@
       if (/guide|instructions|safety|how to/i.test(label) && !/download/i.test(label)) return;
       if (el.tagName === 'A') {
         el.href = apk;
-        el.setAttribute('download', 'G8G_1292_1315.apk');
+        el.setAttribute('download', '8HI_1750_1773.apk');
         el.setAttribute('rel', 'nofollow');
       } else {
         el.disabled = false;
